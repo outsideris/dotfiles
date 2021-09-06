@@ -2,9 +2,9 @@
 
 echo 'Bootstrapping...'
 
-cp .gitconfig ~/
+cp .gitconfig ~/.gitconfig2
 
 source .bash_aliases
 
-touch test_files
+touch ~/test_files
 
