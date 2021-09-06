@@ -6,3 +6,5 @@ cp .gitconfig ~/
 
 source .bash_aliases
 
+touch test_files
+
