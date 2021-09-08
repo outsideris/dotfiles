@@ -1,10 +1,10 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 echo 'Bootstrapping...'
 
-cp .gitconfig ~/.gitconfig2
+cp .gitconfig ~/
 
 source .bash_aliases
 
-touch ~/test_files
+echo "hello world" >> ~/.zshrc
 
