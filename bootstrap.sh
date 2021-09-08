@@ -3,8 +3,7 @@
 echo 'Bootstrapping...'
 
 cp .gitconfig ~/
+cp -R .env ~/
 
-source .bash_aliases
-
-echo "hello world" >> ~/.zshrc
+echo "source ~/.env/aliases" >> ~/.zshrc
 
