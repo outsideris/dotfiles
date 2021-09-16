@@ -1,6 +1,5 @@
 [alias]
-  ci = commit --trailer "Signed-off-by: Outsider <outsideris@gmail.com>"
-  commit = commit --trailer "Signed-off-by: Outsider <outsideris@gmail.com>"
+  ci = commit --trailer 'Signed-off-by: Outsider <outsideris@gmail.com>'
   st = status
   co = checkout
   sw = switch
